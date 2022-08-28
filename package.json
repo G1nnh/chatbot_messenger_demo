@@ -4,7 +4,8 @@
   "description": "facebook bot project with node ",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "messenger",
