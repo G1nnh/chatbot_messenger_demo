@@ -14,7 +14,7 @@ app.listen((process.env.PORT || 5000), () => console.log('El servidor webhook es
 app.get("/", function (req, res) {
     res.send("Se ha desplegado de manera exitosa la app de ChatBot :D!!! :v");
 });
-/*
+
 // Facebook Webhook
 
 // Usados para la verificacion
@@ -90,4 +90,4 @@ function enviar_texto(senderID, response){
           console.error("No se puedo enviar el mensaje:" + err);
         }
     }); 
-}*/
+}
